@@ -1,0 +1,82 @@
+{
+  "answer": {
+    "instruments": [
+      {
+        "tag": "PIC-1001",
+        "setpoints": []
+      },
+      {
+        "tag": "PT-1001",
+        "setpoints": [
+          {
+            "name": "PAH",
+            "value": 8,
+            "units": "barg"
+          },
+          {
+            "name": "PAL",
+            "value": 2,
+            "units": "barg"
+          }
+        ]
+      },
+      {
+        "tag": "PT-1002",
+        "setpoints": [
+          {
+            "name": "PAHH",
+            "value": 9.5,
+            "units": "barg"
+          }
+        ]
+      },
+      {
+        "tag": "PV-1001",
+        "setpoints": []
+      },
+      {
+        "tag": "LIC-1003",
+        "setpoints": []
+      },
+      {
+        "tag": "LT-1003",
+        "setpoints": [
+          {
+            "name": "LAH",
+            "value": 1200,
+            "units": "mm"
+          },
+          {
+            "name": "LAL",
+            "value": 300,
+            "units": "mm"
+          }
+        ]
+      },
+      {
+        "tag": "ZSO-1008",
+        "setpoints": []
+      },
+      {
+        "tag": "ZSC-1008",
+        "setpoints": []
+      },
+      {
+        "tag": "XV-1008",
+        "setpoints": []
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 3125,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 2304
+    },
+    "output_tokens": 192,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3317
+  }
+}

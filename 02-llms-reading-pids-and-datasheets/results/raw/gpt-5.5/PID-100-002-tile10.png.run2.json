@@ -1,0 +1,30 @@
+{
+  "answer": {
+    "instruments": [
+      {
+        "tag": "100-LG-1020",
+        "setpoints": []
+      },
+      {
+        "tag": "100-TI-1021",
+        "setpoints": []
+      },
+      {
+        "tag": "100-LV-1019",
+        "setpoints": []
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 3125,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 54,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3179
+  }
+}

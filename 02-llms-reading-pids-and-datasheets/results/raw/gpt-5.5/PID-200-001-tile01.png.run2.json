@@ -1,0 +1,76 @@
+{
+  "answer": {
+    "instruments": [
+      {
+        "tag": "TI-2004",
+        "setpoints": []
+      },
+      {
+        "tag": "FT-2005",
+        "setpoints": [
+          {
+            "name": "FAL",
+            "value": 2400,
+            "units": "Sm3/h"
+          }
+        ]
+      },
+      {
+        "tag": "LT-2006",
+        "setpoints": []
+      },
+      {
+        "tag": "LG-2010",
+        "setpoints": []
+      },
+      {
+        "tag": "TE-2011",
+        "setpoints": []
+      },
+      {
+        "tag": "PIT-2012",
+        "setpoints": []
+      },
+      {
+        "tag": "TT-2015",
+        "setpoints": [
+          {
+            "name": "TAH",
+            "value": 134,
+            "units": "°C"
+          }
+        ]
+      },
+      {
+        "tag": "TI-2016",
+        "setpoints": []
+      },
+      {
+        "tag": "FT-2017",
+        "setpoints": [
+          {
+            "name": "FAL",
+            "value": 8600,
+            "units": "Sm3/h"
+          }
+        ]
+      },
+      {
+        "tag": "LT-2018",
+        "setpoints": []
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 1784,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 365,
+    "output_tokens_details": {
+      "reasoning_tokens": 185
+    },
+    "total_tokens": 2149
+  }
+}

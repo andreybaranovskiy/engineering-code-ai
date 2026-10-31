@@ -1,0 +1,1002 @@
+{
+  "datasheets": [
+    {
+      "file": "DS-01-100-PT-1001.pdf",
+      "layout": "A",
+      "trap": "none: the control sheet",
+      "fields": {
+        "tag": "100-PT-1001",
+        "lrv": 0,
+        "urv": 10,
+        "units": "barg",
+        "output_signal": "4-20 mA HART",
+        "ex_protection": "Ex ia IIC T4 Ga",
+        "process_connection": "1/2\" NPT F",
+        "wetted_material": "SS316L"
+      },
+      "tier": 1
+    },
+    {
+      "file": "DS-02-100-PT-1002.pdf",
+      "layout": "B",
+      "trap": "sensor limits (-1...40 bar) printed above the calibrated range",
+      "fields": {
+        "tag": "100-PT-1002",
+        "lrv": 0,
+        "urv": 10,
+        "units": "barg",
+        "output_signal": [
+          "4-20 mA HART",
+          "4-20 mA HART, SIL 2"
+        ],
+        "ex_protection": "Ex ia IIC T4 Ga",
+        "process_connection": "1/2\" NPT F",
+        "wetted_material": [
+          "Hastelloy C276",
+          "Hastelloy C-276"
+        ]
+      },
+      "tier": 1
+    },
+    {
+      "file": "DS-03-100-LT-1003.pdf",
+      "layout": "A",
+      "trap": "probe length 2000 mm next to the 1500 mm range",
+      "fields": {
+        "tag": "100-LT-1003",
+        "lrv": 0,
+        "urv": 1500,
+        "units": "mm",
+        "output_signal": "4-20 mA HART",
+        "ex_protection": "Ex d IIC T6 Gb",
+        "process_connection": "2\" ASME B16.5 Cl.300 RF",
+        "wetted_material": [
+          "SS316L / PTFE",
+          "SS316L/PTFE"
+        ]
+      },
+      "tier": 1
+    },
+    {
+      "file": "DS-04-100-LT-1004.pdf",
+      "layout": "C",
+      "trap": "scanned page: no text layer, slight skew and noise",
+      "fields": {
+        "tag": "100-LT-1004",
+        "lrv": 0,
+        "urv": 1500,
+        "units": "mm",
+        "output_signal": "4-20 mA HART",
+        "ex_protection": "Ex ia IIC T4 Ga",
+        "process_connection": "2\" ASME B16.5 Cl.300 RF",
+        "wetted_material": "SS316L"
+      },
+      "tier": 1
+    },
+    {
+      "file": "DS-05-100-FT-1005.pdf",
+      "layout": "B",
+      "trap": "Rev A range struck through but still in the text layer; Rev B value beside it",
+      "fields": {
+        "tag": "100-FT-1005",
+        "lrv": 0,
+        "urv": 50000,
+        "units": "Sm3/h",
+        "output_signal": "4-20 mA HART",
+        "ex_protection": "Ex d IIC T4 Gb",
+        "process_connection": "8\" ASME B16.5 Cl.300 RF",
+        "wetted_material": "Duplex 2205"
+      },
+      "tier": 1
+    },
+    {
+      "file": "DS-06-100-TT-1006.pdf",
+      "layout": "A",
+      "trap": "ambient temperature range printed above the calibrated range",
+      "fields": {
+        "tag": "100-TT-1006",
+        "lrv": -20,
+        "urv": 120,
+        "units": "degC",
+        "output_signal": "4-20 mA HART",
+        "ex_protection": "Ex d IIC T6 Gb",
+        "process_connection": "1\" ASME B16.5 Cl.300 RF",
+        "wetted_material": "SS316"
+      },
+      "tier": 1
+    },
+    {
+      "file": "DS-07-100-PDT-1007.pdf",
+      "layout": "B",
+      "trap": "range in kPa; the index holds it as 0-2 bar",
+      "fields": {
+        "tag": "100-PDT-1007",
+        "lrv": 0,
+        "urv": 200,
+        "units": "kPa",
+        "output_signal": "4-20 mA HART",
+        "ex_protection": "Ex ia IIC T4 Ga",
+        "process_connection": "1/4\" NPT F",
+        "wetted_material": "SS316L"
+      },
+      "tier": 1
+    },
+    {
+      "file": "DS-08-100-AT-1010.pdf",
+      "layout": "C",
+      "trap": "scanned page; output has no HART, unlike its neighbours",
+      "fields": {
+        "tag": "100-AT-1010",
+        "lrv": 0,
+        "urv": 50,
+        "units": "ppm",
+        "output_signal": "4-20 mA",
+        "ex_protection": "Ex d IIC T4 Gb",
+        "process_connection": "3/4\" NPT M",
+        "wetted_material": "SS316"
+      },
+      "tier": 1
+    },
+    {
+      "file": "DS-09-100-PT-1011.pdf",
+      "layout": "A",
+      "trap": "a real discrepancy: the index says 0-25 barg; the datasheet is right",
+      "fields": {
+        "tag": "100-PT-1011",
+        "lrv": 0,
+        "urv": 40,
+        "units": "barg",
+        "output_signal": "4-20 mA HART",
+        "ex_protection": "Ex ia IIC T4 Ga",
+        "process_connection": "1/2\" NPT F",
+        "wetted_material": "SS316L"
+      },
+      "tier": 1
+    },
+    {
+      "file": "DS-10-100-PT-1012.pdf",
+      "layout": "B",
+      "trap": "German/English sheet with decimal commas; tag is PT1012 in the index",
+      "fields": {
+        "tag": "100-PT-1012",
+        "lrv": 0,
+        "urv": 16,
+        "units": "barg",
+        "output_signal": "4-20 mA HART",
+        "ex_protection": "Ex ia IIC T4 Ga",
+        "process_connection": "G 1/2 B",
+        "wetted_material": [
+          "AISI 316L (1.4404)",
+          "AISI 316L",
+          "316L (1.4404)",
+          "1.4404"
+        ]
+      },
+      "tier": 1
+    },
+    {
+      "file": "DS-11-100-PT-1013.pdf",
+      "layout": "C",
+      "trap": "scanned page; the tag is not in the instrument index",
+      "fields": {
+        "tag": "100-PT-1013",
+        "lrv": 0,
+        "urv": 10,
+        "units": "barg",
+        "output_signal": "4-20 mA HART",
+        "ex_protection": "Ex ia IIC T4 Ga",
+        "process_connection": "1/2\" NPT F",
+        "wetted_material": "SS316L"
+      },
+      "tier": 1
+    },
+    {
+      "file": "DS-12-100-FT-1015.pdf",
+      "layout": "A",
+      "trap": "range not yet known (TBC); the right answer is no number at all",
+      "fields": {
+        "tag": "100-FT-1015",
+        "lrv": null,
+        "urv": null,
+        "units": "Sm3/h",
+        "output_signal": "4-20 mA HART",
+        "ex_protection": "Ex d IIC T4 Gb",
+        "process_connection": "4\" ASME B16.5 Cl.300 RF",
+        "wetted_material": "SS316L"
+      },
+      "tier": 1
+    }
+  ],
+  "pids": [
+    {
+      "file": "PID-100-001.png",
+      "tiles": [
+        "PID-100-001-tile00.png",
+        "PID-100-001-tile10.png",
+        "PID-100-001-tile01.png",
+        "PID-100-001-tile11.png"
+      ],
+      "tags": [
+        {
+          "tag": "100-PT-1001",
+          "setpoints": {
+            "PAH": 8.0,
+            "PAL": 2.0
+          }
+        },
+        {
+          "tag": "100-PIC-1001",
+          "setpoints": {}
+        },
+        {
+          "tag": "100-PV-1001",
+          "setpoints": {}
+        },
+        {
+          "tag": "100-PT-1002",
+          "setpoints": {
+            "PAHH": 9.5
+          }
+        },
+        {
+          "tag": "100-LT-1003",
+          "setpoints": {
+            "LAH": 1200.0,
+            "LAL": 300.0
+          }
+        },
+        {
+          "tag": "100-LIC-1003",
+          "setpoints": {}
+        },
+        {
+          "tag": "100-LV-1003",
+          "setpoints": {}
+        },
+        {
+          "tag": "100-LT-1004",
+          "setpoints": {
+            "LAHH": 1400.0,
+            "LALL": 100.0
+          }
+        },
+        {
+          "tag": "100-FT-1005",
+          "setpoints": {
+            "FAH": 45000.0
+          }
+        },
+        {
+          "tag": "100-TT-1006",
+          "setpoints": {
+            "TAH": 95.0
+          }
+        },
+        {
+          "tag": "100-PDT-1007",
+          "setpoints": {
+            "PDAH": 1.5
+          }
+        },
+        {
+          "tag": "100-AT-1010",
+          "setpoints": {
+            "AAH": 10.0,
+            "AAHH": 20.0
+          }
+        },
+        {
+          "tag": "100-XV-1008",
+          "setpoints": {}
+        },
+        {
+          "tag": "100-ZSO-1008",
+          "setpoints": {}
+        },
+        {
+          "tag": "100-ZSC-1008",
+          "setpoints": {}
+        }
+      ],
+      "must_not_report": [
+        "100-TI-1018"
+      ],
+      "tier": 1
+    },
+    {
+      "file": "PID-100-002.png",
+      "tiles": [
+        "PID-100-002-tile00.png",
+        "PID-100-002-tile10.png",
+        "PID-100-002-tile01.png",
+        "PID-100-002-tile11.png"
+      ],
+      "tags": [
+        {
+          "tag": "100-LT-1019",
+          "setpoints": {
+            "LAH": 800.0,
+            "LAL": 200.0
+          }
+        },
+        {
+          "tag": "100-LIC-1019",
+          "setpoints": {}
+        },
+        {
+          "tag": "100-LV-1019",
+          "setpoints": {}
+        },
+        {
+          "tag": "100-LG-1020",
+          "setpoints": {}
+        },
+        {
+          "tag": "100-PT-1011",
+          "setpoints": {
+            "PAH": 20.0
+          }
+        },
+        {
+          "tag": "100-PI-1014",
+          "setpoints": {}
+        },
+        {
+          "tag": "100-TI-1021",
+          "setpoints": {}
+        },
+        {
+          "tag": "100-PT-1012",
+          "setpoints": {
+            "PAH": 12.0
+          }
+        },
+        {
+          "tag": "100-PCV-1012",
+          "setpoints": {}
+        },
+        {
+          "tag": "100-PSV-1023",
+          "setpoints": {
+            "SET": 16.0
+          }
+        }
+      ],
+      "must_not_report": [],
+      "tier": 1
+    },
+    {
+      "file": "PID-200-001.png",
+      "tier": 2,
+      "tiles": [
+        "PID-200-001-tile00.png",
+        "PID-200-001-tile10.png",
+        "PID-200-001-tile01.png",
+        "PID-200-001-tile11.png"
+      ],
+      "tags": [
+        {
+          "tag": "200-PT-2001",
+          "setpoints": {
+            "PAH": 10.0,
+            "PAHH": 12.0
+          }
+        },
+        {
+          "tag": "200-PI-2002",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-TT-2003",
+          "setpoints": {
+            "TAH": 122
+          }
+        },
+        {
+          "tag": "200-TI-2004",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-FT-2005",
+          "setpoints": {
+            "FAL": 2400
+          }
+        },
+        {
+          "tag": "200-LT-2006",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PDT-2007",
+          "setpoints": {
+            "PDAH": 0.5
+          }
+        },
+        {
+          "tag": "200-ZT-2009",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-LG-2010",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-TE-2011",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PIT-2012",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PT-2013",
+          "setpoints": {
+            "PAH": 16.0,
+            "PAHH": 18.0
+          }
+        },
+        {
+          "tag": "200-PI-2014",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-TT-2015",
+          "setpoints": {
+            "TAH": 134
+          }
+        },
+        {
+          "tag": "200-TI-2016",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-FT-2017",
+          "setpoints": {
+            "FAL": 3600
+          }
+        },
+        {
+          "tag": "200-LT-2018",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PDT-2019",
+          "setpoints": {
+            "PDAH": 0.5
+          }
+        },
+        {
+          "tag": "200-VT-2020",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-ZT-2021",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-LG-2022",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-TE-2023",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PIT-2024",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PT-2025",
+          "setpoints": {
+            "PAH": 22.0,
+            "PAHH": 24.0
+          }
+        },
+        {
+          "tag": "200-PI-2026",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-TI-2028",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-FT-2029",
+          "setpoints": {
+            "FAL": 4800
+          }
+        },
+        {
+          "tag": "200-LT-2030",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PDT-2031",
+          "setpoints": {
+            "PDAH": 0.5
+          }
+        },
+        {
+          "tag": "200-VT-2032",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-ZT-2033",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-LG-2034",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-TE-2035",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PIT-2036",
+          "setpoints": {}
+        }
+      ],
+      "must_not_report": [
+        "200-TT-2027",
+        "200-VT-2008"
+      ]
+    },
+    {
+      "file": "PID-200-001-s35.png",
+      "tier": 3,
+      "scale": 35,
+      "tiles": [],
+      "tags": [
+        {
+          "tag": "200-PT-2001",
+          "setpoints": {
+            "PAH": 10.0,
+            "PAHH": 12.0
+          }
+        },
+        {
+          "tag": "200-PI-2002",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-TT-2003",
+          "setpoints": {
+            "TAH": 122
+          }
+        },
+        {
+          "tag": "200-TI-2004",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-FT-2005",
+          "setpoints": {
+            "FAL": 2400
+          }
+        },
+        {
+          "tag": "200-LT-2006",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PDT-2007",
+          "setpoints": {
+            "PDAH": 0.5
+          }
+        },
+        {
+          "tag": "200-ZT-2009",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-LG-2010",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-TE-2011",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PIT-2012",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PT-2013",
+          "setpoints": {
+            "PAH": 16.0,
+            "PAHH": 18.0
+          }
+        },
+        {
+          "tag": "200-PI-2014",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-TT-2015",
+          "setpoints": {
+            "TAH": 134
+          }
+        },
+        {
+          "tag": "200-TI-2016",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-FT-2017",
+          "setpoints": {
+            "FAL": 3600
+          }
+        },
+        {
+          "tag": "200-LT-2018",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PDT-2019",
+          "setpoints": {
+            "PDAH": 0.5
+          }
+        },
+        {
+          "tag": "200-VT-2020",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-ZT-2021",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-LG-2022",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-TE-2023",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PIT-2024",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PT-2025",
+          "setpoints": {
+            "PAH": 22.0,
+            "PAHH": 24.0
+          }
+        },
+        {
+          "tag": "200-PI-2026",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-TI-2028",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-FT-2029",
+          "setpoints": {
+            "FAL": 4800
+          }
+        },
+        {
+          "tag": "200-LT-2030",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PDT-2031",
+          "setpoints": {
+            "PDAH": 0.5
+          }
+        },
+        {
+          "tag": "200-VT-2032",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-ZT-2033",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-LG-2034",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-TE-2035",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PIT-2036",
+          "setpoints": {}
+        }
+      ],
+      "must_not_report": [
+        "200-TT-2027",
+        "200-VT-2008"
+      ]
+    },
+    {
+      "file": "PID-200-001-s25.png",
+      "tier": 3,
+      "scale": 25,
+      "tiles": [],
+      "tags": [
+        {
+          "tag": "200-PT-2001",
+          "setpoints": {
+            "PAH": 10.0,
+            "PAHH": 12.0
+          }
+        },
+        {
+          "tag": "200-PI-2002",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-TT-2003",
+          "setpoints": {
+            "TAH": 122
+          }
+        },
+        {
+          "tag": "200-TI-2004",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-FT-2005",
+          "setpoints": {
+            "FAL": 2400
+          }
+        },
+        {
+          "tag": "200-LT-2006",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PDT-2007",
+          "setpoints": {
+            "PDAH": 0.5
+          }
+        },
+        {
+          "tag": "200-ZT-2009",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-LG-2010",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-TE-2011",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PIT-2012",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PT-2013",
+          "setpoints": {
+            "PAH": 16.0,
+            "PAHH": 18.0
+          }
+        },
+        {
+          "tag": "200-PI-2014",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-TT-2015",
+          "setpoints": {
+            "TAH": 134
+          }
+        },
+        {
+          "tag": "200-TI-2016",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-FT-2017",
+          "setpoints": {
+            "FAL": 3600
+          }
+        },
+        {
+          "tag": "200-LT-2018",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PDT-2019",
+          "setpoints": {
+            "PDAH": 0.5
+          }
+        },
+        {
+          "tag": "200-VT-2020",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-ZT-2021",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-LG-2022",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-TE-2023",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PIT-2024",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PT-2025",
+          "setpoints": {
+            "PAH": 22.0,
+            "PAHH": 24.0
+          }
+        },
+        {
+          "tag": "200-PI-2026",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-TI-2028",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-FT-2029",
+          "setpoints": {
+            "FAL": 4800
+          }
+        },
+        {
+          "tag": "200-LT-2030",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PDT-2031",
+          "setpoints": {
+            "PDAH": 0.5
+          }
+        },
+        {
+          "tag": "200-VT-2032",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-ZT-2033",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-LG-2034",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-TE-2035",
+          "setpoints": {}
+        },
+        {
+          "tag": "200-PIT-2036",
+          "setpoints": {}
+        }
+      ],
+      "must_not_report": [
+        "200-TT-2027",
+        "200-VT-2008"
+      ]
+    }
+  ],
+  "datasheets_multi": [
+    {
+      "file": "DS-20-200-PT-2001-2004.pdf",
+      "tier": 2,
+      "trap": "four tags in columns; ditto marks; units in the row header; sensor URL row; old range in a footnote",
+      "records": [
+        {
+          "tag": "200-PT-2001",
+          "lrv": 0,
+          "urv": 16,
+          "units": "barg",
+          "output_signal": "4-20 mA HART",
+          "ex_protection": "Ex ia IIC T4 Ga",
+          "process_connection": "1/2\" NPT F",
+          "wetted_material": "SS316L"
+        },
+        {
+          "tag": "200-PT-2002",
+          "lrv": 0,
+          "urv": 40,
+          "units": "barg",
+          "output_signal": "4-20 mA HART",
+          "ex_protection": "Ex ia IIC T4 Ga",
+          "process_connection": "1/2\" NPT F",
+          "wetted_material": "SS316L"
+        },
+        {
+          "tag": "200-PT-2003",
+          "lrv": 0,
+          "urv": 100,
+          "units": "barg",
+          "output_signal": "4-20 mA HART",
+          "ex_protection": "Ex ia IIC T4 Ga",
+          "process_connection": "3/4\" NPT F",
+          "wetted_material": [
+            "Inconel 625",
+            "Alloy 625"
+          ]
+        },
+        {
+          "tag": "200-PT-2004",
+          "lrv": 0,
+          "urv": 40,
+          "units": "barg",
+          "output_signal": [
+            "Foundation Fieldbus",
+            "FOUNDATION Fieldbus",
+            "FF"
+          ],
+          "ex_protection": "Ex d IIC T6 Gb",
+          "process_connection": "1/2\" NPT F",
+          "wetted_material": "SS316L"
+        }
+      ]
+    },
+    {
+      "file": "DS-21-200-PT-2001-2004-fax.pdf",
+      "tier": 2,
+      "trap": "the same sheet as a fax: ~100 dpi, 1-bit, skewed, speckled, JPEG",
+      "records": [
+        {
+          "tag": "200-PT-2001",
+          "lrv": 0,
+          "urv": 16,
+          "units": "barg",
+          "output_signal": "4-20 mA HART",
+          "ex_protection": "Ex ia IIC T4 Ga",
+          "process_connection": "1/2\" NPT F",
+          "wetted_material": "SS316L"
+        },
+        {
+          "tag": "200-PT-2002",
+          "lrv": 0,
+          "urv": 40,
+          "units": "barg",
+          "output_signal": "4-20 mA HART",
+          "ex_protection": "Ex ia IIC T4 Ga",
+          "process_connection": "1/2\" NPT F",
+          "wetted_material": "SS316L"
+        },
+        {
+          "tag": "200-PT-2003",
+          "lrv": 0,
+          "urv": 100,
+          "units": "barg",
+          "output_signal": "4-20 mA HART",
+          "ex_protection": "Ex ia IIC T4 Ga",
+          "process_connection": "3/4\" NPT F",
+          "wetted_material": [
+            "Inconel 625",
+            "Alloy 625"
+          ]
+        },
+        {
+          "tag": "200-PT-2004",
+          "lrv": 0,
+          "urv": 40,
+          "units": "barg",
+          "output_signal": [
+            "Foundation Fieldbus",
+            "FOUNDATION Fieldbus",
+            "FF"
+          ],
+          "ex_protection": "Ex d IIC T6 Gb",
+          "process_connection": "1/2\" NPT F",
+          "wetted_material": "SS316L"
+        }
+      ]
+    }
+  ]
+}

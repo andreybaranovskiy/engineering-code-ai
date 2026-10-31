@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "tag": {
+      "value": "100-PT-1011",
+      "evidence": "Tag number: 100-PT-1011"
+    },
+    "lrv": {
+      "value": 0,
+      "evidence": "Calibrated range                                       0 to 40 barg"
+    },
+    "urv": {
+      "value": 40,
+      "evidence": "Calibrated range                                       0 to 40 barg"
+    },
+    "units": {
+      "value": "barg",
+      "evidence": "Calibrated range                                       0 to 40 barg"
+    },
+    "output_signal": {
+      "value": "4-20 mA HART",
+      "evidence": "Output signal                                          4-20 mA HART"
+    },
+    "ex_protection": {
+      "value": "Ex ia IIC T4 Ga",
+      "evidence": "Hazardous area                                         Ex ia IIC T4 Ga"
+    },
+    "process_connection": {
+      "value": "1/2\" NPT F",
+      "evidence": "Process connection                                     1/2\" NPT F"
+    },
+    "wetted_material": {
+      "value": "SS316L",
+      "evidence": "Wetted parts                                           SS316L"
+    },
+    "uncertain": []
+  },
+  "usage": {
+    "input_tokens": 683,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 253,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 936
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "tag": {
+      "value": "100-FT-1005",
+      "evidence": "Pos. 10 Kunden-TAG / customer tag: 100-FT-1005"
+    },
+    "lrv": {
+      "value": 0,
+      "evidence": "Calibrated range                                                           0 ... 40 000 Sm³/h   0 ... 50 000 Sm³/h (Rev B)"
+    },
+    "urv": {
+      "value": 50000,
+      "evidence": "Calibrated range                                                           0 ... 40 000 Sm³/h   0 ... 50 000 Sm³/h (Rev B)"
+    },
+    "units": {
+      "value": "Sm³/h",
+      "evidence": "Calibrated range                                                           0 ... 40 000 Sm³/h   0 ... 50 000 Sm³/h (Rev B)"
+    },
+    "output_signal": {
+      "value": "4-20 mA HART",
+      "evidence": "Output                                                                     4-20 mA HART"
+    },
+    "ex_protection": {
+      "value": "Ex d IIC T4 Gb",
+      "evidence": "Ex protection                                                              Ex d IIC T4 Gb"
+    },
+    "process_connection": {
+      "value": "8\" ASME B16.5 Cl.300 RF",
+      "evidence": "Process connection                                                         8\" ASME B16.5 Cl.300 RF"
+    },
+    "wetted_material": {
+      "value": "Duplex 2205",
+      "evidence": "Wetted material                                                            Duplex 2205"
+    },
+    "uncertain": []
+  },
+  "usage": {
+    "input_tokens": 687,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 296,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 983
+  }
+}

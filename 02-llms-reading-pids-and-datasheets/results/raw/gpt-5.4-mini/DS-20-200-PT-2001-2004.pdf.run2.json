@@ -1,0 +1,158 @@
+{
+  "answer": {
+    "instruments": [
+      {
+        "tag": {
+          "value": "200-PT-2001",
+          "evidence": "200-PT-2001"
+        },
+        "lrv": {
+          "value": 0,
+          "evidence": "0 - 16"
+        },
+        "urv": {
+          "value": 16,
+          "evidence": "0 - 16"
+        },
+        "units": {
+          "value": "barg",
+          "evidence": "Calibrated range (barg)"
+        },
+        "output_signal": {
+          "value": "4-20 mA HART",
+          "evidence": "4-20 mA HART"
+        },
+        "ex_protection": {
+          "value": "Ex ia IIC T4 Ga",
+          "evidence": "Ex ia IIC T4 Ga"
+        },
+        "process_connection": {
+          "value": "1/2\" NPT F",
+          "evidence": "1/2\" NPT F"
+        },
+        "wetted_material": {
+          "value": "SS316L",
+          "evidence": "SS316L"
+        },
+        "uncertain": []
+      },
+      {
+        "tag": {
+          "value": "200-PT-2002",
+          "evidence": "200-PT-2002"
+        },
+        "lrv": {
+          "value": 0,
+          "evidence": "0 - 40"
+        },
+        "urv": {
+          "value": 40,
+          "evidence": "0 - 40"
+        },
+        "units": {
+          "value": "barg",
+          "evidence": "Calibrated range (barg)"
+        },
+        "output_signal": {
+          "value": "4-20 mA HART",
+          "evidence": "as col. 1"
+        },
+        "ex_protection": {
+          "value": "Ex ia IIC T4 Ga",
+          "evidence": "\""
+        },
+        "process_connection": {
+          "value": "1/2\" NPT F",
+          "evidence": "\""
+        },
+        "wetted_material": {
+          "value": "SS316L",
+          "evidence": "\""
+        },
+        "uncertain": []
+      },
+      {
+        "tag": {
+          "value": "200-PT-2003",
+          "evidence": "200-PT-2003"
+        },
+        "lrv": {
+          "value": 0,
+          "evidence": "0 - 100 △1"
+        },
+        "urv": {
+          "value": 100,
+          "evidence": "0 - 100 △1"
+        },
+        "units": {
+          "value": "barg",
+          "evidence": "Calibrated range (barg)"
+        },
+        "output_signal": {
+          "value": "4-20 mA HART",
+          "evidence": "\""
+        },
+        "ex_protection": {
+          "value": "Ex ia IIC T4 Ga",
+          "evidence": "\""
+        },
+        "process_connection": {
+          "value": "3/4\" NPT F",
+          "evidence": "3/4\" NPT F"
+        },
+        "wetted_material": {
+          "value": "Inconel 625",
+          "evidence": "Inconel 625"
+        },
+        "uncertain": []
+      },
+      {
+        "tag": {
+          "value": "200-PT-2004",
+          "evidence": "200-PT-2004"
+        },
+        "lrv": {
+          "value": 0,
+          "evidence": "as col. 2"
+        },
+        "urv": {
+          "value": 40,
+          "evidence": "as col. 2"
+        },
+        "units": {
+          "value": "barg",
+          "evidence": "Calibrated range (barg)"
+        },
+        "output_signal": {
+          "value": "Foundation Fieldbus",
+          "evidence": "Foundation Fieldbus"
+        },
+        "ex_protection": {
+          "value": "Ex d IIC T6 Gb",
+          "evidence": "Ex d IIC T6 Gb"
+        },
+        "process_connection": {
+          "value": "1/2\" NPT F",
+          "evidence": "1/2\" NPT F"
+        },
+        "wetted_material": {
+          "value": "SS316L",
+          "evidence": "SS316L"
+        },
+        "uncertain": []
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 851,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1195,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 2046
+  }
+}

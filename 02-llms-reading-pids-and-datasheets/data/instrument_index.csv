@@ -1,0 +1,17 @@
+tag,service,signal,lrv,urv,units,system,loop_class,is,ll,l,h,hh
+100-PT-1001,Inlet separator pressure,AI,0,10,barg,DCS,BPCS,Y,,2,8,
+100-PT-1002,Inlet separator pressure (trip),AI,0,10,barg,DCS,SIF,Y,,,,9.5
+100-LT-1003,Inlet separator level,AI,0,1500,mm,DCS,BPCS,Y,150,300,1200,1350
+100-LT-1004,Inlet separator level (trip),AI,0,1500,mm,SIS,SIF,Y,100,,,1400
+100-FT-1005,Gas outlet flow,AI,0,50000,Sm3/h,DCS,BPCS,Y,,,45000,
+100-TT-1006,Gas outlet temperature,AI,-20,120,degC,DCS,BPCS,Y,,,95,130
+100-PDT-1007,Filter differential pressure,AI,0,2,bar,DCS,BPCS,Y,,,1.5,1.2
+100-XV-1008,Inlet ESD valve open limit,DI,,,,SIS,SIF,N,,,,
+100-XV-1009,Inlet ESD valve command,DO,,,,SIS,SIF,N,,,,
+100-AT-1010,Gas H2S analyser,AI,0,50,ppm,DCS,BPCS,N,,,10,20
+100-PT-1011,Condensate pump discharge,AI,0,25,barg,DCS,BPCS,Y,,,20,
+PT1012,Fuel gas pressure,AI,0,16,barg,DCS,BPCS,Y,,,12,
+200-PT-2001,Compressor suction pressure,AI,0,16,barg,DCS,BPCS,Y,,,10,12
+200-PT-2002,Compressor interstage pressure,AI,0,40,barg,DCS,BPCS,Y,,,,
+200-PT-2003,Compressor discharge pressure,AI,0,60,barg,DCS,BPCS,Y,,,,
+200-PT-2004,Seal gas pressure,AI,0,40,barg,DCS,BPCS,Y,,,,

@@ -1,0 +1,37 @@
+{
+  "answer": {
+    "instruments": [
+      {
+        "tag": "100-LT-1004",
+        "setpoints": [
+          {
+            "name": "LAHH",
+            "value": 1400,
+            "units": "mm"
+          },
+          {
+            "name": "LALL",
+            "value": 100,
+            "units": "mm"
+          }
+        ]
+      },
+      {
+        "tag": "100-LV-1003",
+        "setpoints": []
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 3125,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 83
+    },
+    "total_tokens": 3280
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "answer": {
+    "instruments": [
+      {
+        "tag": "200-PDI-2019",
+        "setpoints": [
+          {
+            "name": "PDAH",
+            "value": 0.5,
+            "units": "bar"
+          }
+        ]
+      },
+      {
+        "tag": "200-VT-2020",
+        "setpoints": []
+      },
+      {
+        "tag": "200-ZT-2021",
+        "setpoints": []
+      },
+      {
+        "tag": "200-LG-2022",
+        "setpoints": []
+      },
+      {
+        "tag": "200-PT-2025",
+        "setpoints": [
+          {
+            "name": "PAH",
+            "value": 22,
+            "units": "barg"
+          },
+          {
+            "name": "PAHH",
+            "value": 24,
+            "units": "barg"
+          }
+        ]
+      },
+      {
+        "tag": "200-PI-2026",
+        "setpoints": []
+      },
+      {
+        "tag": "200-PDT-2031",
+        "setpoints": [
+          {
+            "name": "PDAH",
+            "value": 0.5,
+            "units": "bar"
+          }
+        ]
+      },
+      {
+        "tag": "200-VT-2032",
+        "setpoints": []
+      },
+      {
+        "tag": "200-ZT-2033",
+        "setpoints": []
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 1784,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 198,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1982
+  }
+}

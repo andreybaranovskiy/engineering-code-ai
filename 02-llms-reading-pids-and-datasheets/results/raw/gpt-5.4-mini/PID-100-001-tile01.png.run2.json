@@ -1,0 +1,73 @@
+{
+  "answer": {
+    "instruments": [
+      {
+        "tag": "PV 1001",
+        "setpoints": [
+          {
+            "name": "PAHH",
+            "value": 9.5,
+            "units": "barg"
+          }
+        ]
+      },
+      {
+        "tag": "FT 1005",
+        "setpoints": [
+          {
+            "name": "FAH",
+            "value": 45000,
+            "units": "Sm3/h"
+          }
+        ]
+      },
+      {
+        "tag": "TT 1006",
+        "setpoints": [
+          {
+            "name": "TAH",
+            "value": 95,
+            "units": "°C"
+          }
+        ]
+      },
+      {
+        "tag": "PDT 1007",
+        "setpoints": [
+          {
+            "name": "PDAH",
+            "value": 1.5,
+            "units": "bar"
+          }
+        ]
+      },
+      {
+        "tag": "AT 1010",
+        "setpoints": [
+          {
+            "name": "AAH",
+            "value": 10,
+            "units": "ppm"
+          },
+          {
+            "name": "AAHH",
+            "value": 20,
+            "units": "ppm"
+          }
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 3125,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 2432
+    },
+    "output_tokens": 292,
+    "output_tokens_details": {
+      "reasoning_tokens": 122
+    },
+    "total_tokens": 3417
+  }
+}

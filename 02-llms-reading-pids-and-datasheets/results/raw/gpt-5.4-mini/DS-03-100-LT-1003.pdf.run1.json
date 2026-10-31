@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "tag": {
+      "value": "100-LT-1003",
+      "evidence": "Tag number: 100-LT-1003"
+    },
+    "lrv": {
+      "value": 0,
+      "evidence": "Calibrated range                                       0 to 1500 mm above bottom reference"
+    },
+    "urv": {
+      "value": 1500,
+      "evidence": "Calibrated range                                       0 to 1500 mm above bottom reference"
+    },
+    "units": {
+      "value": "mm",
+      "evidence": "Calibrated range                                       0 to 1500 mm above bottom reference"
+    },
+    "output_signal": {
+      "value": "4-20 mA HART",
+      "evidence": "Output signal                                          4-20 mA HART"
+    },
+    "ex_protection": {
+      "value": "Ex d IIC T6 Gb",
+      "evidence": "Hazardous area                                         Ex d IIC T6 Gb"
+    },
+    "process_connection": {
+      "value": "2\" ASME B16.5 Cl.300 RF",
+      "evidence": "Process connection                                     2\" ASME B16.5 Cl.300 RF"
+    },
+    "wetted_material": {
+      "value": "SS316L / PTFE",
+      "evidence": "Wetted parts                                           SS316L / PTFE"
+    },
+    "uncertain": []
+  },
+  "usage": {
+    "input_tokens": 713,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 357,
+    "output_tokens_details": {
+      "reasoning_tokens": 108
+    },
+    "total_tokens": 1070
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "answer": {
+    "instruments": [
+      {
+        "tag": "LG 2022",
+        "setpoints": []
+      },
+      {
+        "tag": "TI 2028",
+        "setpoints": []
+      },
+      {
+        "tag": "LG 2034",
+        "setpoints": []
+      },
+      {
+        "tag": "TE 2023",
+        "setpoints": []
+      },
+      {
+        "tag": "FT 2029",
+        "setpoints": [
+          {
+            "name": "FAL",
+            "value": 4800,
+            "units": "m3/h"
+          }
+        ]
+      },
+      {
+        "tag": "TE 2035",
+        "setpoints": []
+      },
+      {
+        "tag": "PIT 2024",
+        "setpoints": []
+      },
+      {
+        "tag": "LT 2030",
+        "setpoints": []
+      },
+      {
+        "tag": "PIT 2036",
+        "setpoints": []
+      },
+      {
+        "tag": "ZT 2033",
+        "setpoints": []
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 1784,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 318,
+    "output_tokens_details": {
+      "reasoning_tokens": 171
+    },
+    "total_tokens": 2102
+  }
+}

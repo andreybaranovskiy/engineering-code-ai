@@ -1,0 +1,94 @@
+{
+  "answer": {
+    "instruments": [
+      {
+        "tag": "PT 2001",
+        "setpoints": [
+          {
+            "name": "PAH",
+            "value": 10,
+            "units": "barg"
+          },
+          {
+            "name": "PAHH",
+            "value": 12,
+            "units": "barg"
+          }
+        ]
+      },
+      {
+        "tag": "PDT 2007",
+        "setpoints": [
+          {
+            "name": "PDAH",
+            "value": 0.5,
+            "units": "bar"
+          }
+        ]
+      },
+      {
+        "tag": "PT 2013",
+        "setpoints": [
+          {
+            "name": "PAH",
+            "value": 16,
+            "units": "barg"
+          },
+          {
+            "name": "PAHH",
+            "value": 18,
+            "units": "barg"
+          }
+        ]
+      },
+      {
+        "tag": "PI 2002",
+        "setpoints": []
+      },
+      {
+        "tag": "TT 2003",
+        "setpoints": [
+          {
+            "name": "TAH",
+            "value": 122,
+            "units": "°C"
+          }
+        ]
+      },
+      {
+        "tag": "TI 2004",
+        "setpoints": []
+      },
+      {
+        "tag": "TI 2014",
+        "setpoints": []
+      },
+      {
+        "tag": "ZT 2009",
+        "setpoints": []
+      },
+      {
+        "tag": "TT 2015",
+        "setpoints": [
+          {
+            "name": "TAH",
+            "value": 134,
+            "units": "°C"
+          }
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 1784,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 1408
+    },
+    "output_tokens": 412,
+    "output_tokens_details": {
+      "reasoning_tokens": 186
+    },
+    "total_tokens": 2196
+  }
+}

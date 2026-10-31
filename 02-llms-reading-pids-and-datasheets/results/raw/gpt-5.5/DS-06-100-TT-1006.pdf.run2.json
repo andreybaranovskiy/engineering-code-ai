@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "tag": {
+      "value": "100-TT-1006",
+      "evidence": "Tag number: 100-TT-1006"
+    },
+    "lrv": {
+      "value": -20,
+      "evidence": "Calibrated range                                       -20 to 120 °C"
+    },
+    "urv": {
+      "value": 120,
+      "evidence": "Calibrated range                                       -20 to 120 °C"
+    },
+    "units": {
+      "value": "°C",
+      "evidence": "Calibrated range                                       -20 to 120 °C"
+    },
+    "output_signal": {
+      "value": "4-20 mA HART",
+      "evidence": "Output signal                                          4-20 mA HART"
+    },
+    "ex_protection": {
+      "value": "Ex d IIC T6 Gb",
+      "evidence": "Hazardous area                                         Ex d IIC T6 Gb"
+    },
+    "process_connection": {
+      "value": "1\" ASME B16.5 Cl.300 RF",
+      "evidence": "Process connection                                     1\" ASME B16.5 Cl.300 RF"
+    },
+    "wetted_material": {
+      "value": "SS316",
+      "evidence": "Thermowell material                                    SS316"
+    },
+    "uncertain": []
+  },
+  "usage": {
+    "input_tokens": 714,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 233,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 947
+  }
+}

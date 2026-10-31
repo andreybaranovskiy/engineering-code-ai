@@ -2,12 +2,12 @@
 
 Companion code for a series of long-form articles, published every 4 weeks, by **Andrey Baranovskiy, CEng**: practical software and AI for instrumentation, control and ICT/ELV engineering.
 
-Articles: published on [LinkedIn](https://www.linkedin.com/in/andrey-baranovskiy/recent-activity/articles/) every 4 weeks, and on andreybaranovskiy.com once the site launches.
+Articles: published every 4 weeks at [andreybaranovskiy.com/articles](https://andreybaranovskiy.com/articles) and in the LinkedIn newsletter Engineering + Code + AI.
 
 | # | Article | Folder | Published |
 |---|---|---|---|
 | 01 | Your IO list is a database: engineering data as code | [`01-io-list-is-a-database`](01-io-list-is-a-database) | 10 Oct 2026 |
-| 02 | LLMs reading P&IDs and datasheets: a measured test | coming | 7 Nov 2026 |
+| 02 | LLMs reading P&IDs and datasheets: a measured test | [`02-llms-reading-pids-and-datasheets`](02-llms-reading-pids-and-datasheets) | 7 Nov 2026 |
 
 ## Tools
 

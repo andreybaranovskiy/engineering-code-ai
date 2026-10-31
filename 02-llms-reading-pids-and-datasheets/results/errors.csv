@@ -1,0 +1,14 @@
+model,run,tier,document,layout,tag,field,extracted,evidence,truth,checks,runs_disagree,model_said_uncertain,models_disagree
+gpt-5.4-mini,1,2,DS-21-200-PT-2001-2004-fax.pdf,M,200-PT-2002,ex_protection,,No value stated in the document for this tag,Ex ia IIC T4 Ga,N1 required value missing,False,True,True
+gpt-5.4-mini,1,2,DS-21-200-PT-2001-2004-fax.pdf,M,200-PT-2002,process_connection,,No value stated in the document for this tag,"1/2"" NPT F",N1 required value missing,False,True,True
+gpt-5.4-mini,1,2,DS-21-200-PT-2001-2004-fax.pdf,M,200-PT-2002,wetted_material,,No value stated in the document for this tag,SS316L,N1 required value missing,False,True,True
+gpt-5.4-mini,1,2,DS-21-200-PT-2001-2004-fax.pdf,M,200-PT-2003,output_signal,,No value stated in the document for this tag,4-20 mA HART,N1 required value missing,False,True,True
+gpt-5.4-mini,1,2,DS-21-200-PT-2001-2004-fax.pdf,M,200-PT-2003,ex_protection,,No value stated in the document for this tag,Ex ia IIC T4 Ga,N1 required value missing,False,True,True
+gpt-5.4-mini,2,2,DS-21-200-PT-2001-2004-fax.pdf,M,200-PT-2002,output_signal,as col. 1,Output signal as col. 1,4-20 mA HART,,True,False,True
+gpt-5.4-mini,2,2,DS-21-200-PT-2001-2004-fax.pdf,M,200-PT-2002,ex_protection,,,Ex ia IIC T4 Ga,N1 required value missing,False,True,True
+gpt-5.4-mini,2,2,DS-21-200-PT-2001-2004-fax.pdf,M,200-PT-2002,process_connection,,,"1/2"" NPT F",N1 required value missing,False,True,True
+gpt-5.4-mini,2,2,DS-21-200-PT-2001-2004-fax.pdf,M,200-PT-2002,wetted_material,,,SS316L,N1 required value missing,False,True,True
+gpt-5.4-mini,2,2,DS-21-200-PT-2001-2004-fax.pdf,M,200-PT-2003,output_signal,,,4-20 mA HART,N1 required value missing,False,True,True
+gpt-5.4-mini,2,2,DS-21-200-PT-2001-2004-fax.pdf,M,200-PT-2003,ex_protection,,,Ex ia IIC T4 Ga,N1 required value missing,False,True,True
+gpt-5.5,1,1,DS-03-100-LT-1003.pdf,A,100-LT-1003,units,mm above bottom reference,Calibrated range                                       0 to 1500 mm above bottom reference,mm,S3 unknown units 'mm above bottom reference'; X3 units 'mm above bottom reference' not comparable with index 'mm',False,False,True
+gpt-5.5,2,1,DS-03-100-LT-1003.pdf,A,100-LT-1003,units,mm above bottom reference,Calibrated range                                       0 to 1500 mm above bottom reference,mm,S3 unknown units 'mm above bottom reference'; X3 units 'mm above bottom reference' not comparable with index 'mm',False,False,True

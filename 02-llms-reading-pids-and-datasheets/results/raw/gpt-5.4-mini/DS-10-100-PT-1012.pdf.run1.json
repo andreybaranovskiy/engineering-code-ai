@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "tag": {
+      "value": "100-PT-1012",
+      "evidence": "Kunden-TAG / customer tag: 100-PT-1012"
+    },
+    "lrv": {
+      "value": 0,
+      "evidence": "Messbereich / Measuring range                                              0,0 ... 16,0 bar g"
+    },
+    "urv": {
+      "value": 16,
+      "evidence": "Messbereich / Measuring range                                              0,0 ... 16,0 bar g"
+    },
+    "units": {
+      "value": "bar g",
+      "evidence": "Messbereich / Measuring range                                              0,0 ... 16,0 bar g"
+    },
+    "output_signal": {
+      "value": "4-20 mA HART",
+      "evidence": "Ausgang / Output                                                           4-20 mA HART"
+    },
+    "ex_protection": {
+      "value": "Ex ia IIC T4 Ga",
+      "evidence": "Ex-Schutz / Ex protection                                                  Ex ia IIC T4 Ga"
+    },
+    "process_connection": {
+      "value": "G 1/2 B",
+      "evidence": "Prozessanschluss / Process connection                                      G 1/2 B"
+    },
+    "wetted_material": {
+      "value": "AISI 316L (1.4404)",
+      "evidence": "Werkstoff / Wetted material                                                AISI 316L (1.4404)"
+    },
+    "uncertain": []
+  },
+  "usage": {
+    "input_tokens": 693,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 348,
+    "output_tokens_details": {
+      "reasoning_tokens": 79
+    },
+    "total_tokens": 1041
+  }
+}

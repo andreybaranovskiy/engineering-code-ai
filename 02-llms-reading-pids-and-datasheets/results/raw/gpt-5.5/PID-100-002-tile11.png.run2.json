@@ -1,0 +1,22 @@
+{
+  "answer": {
+    "instruments": [
+      {
+        "tag": "PI-1014",
+        "setpoints": []
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 3125,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 2304
+    },
+    "output_tokens": 26,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3151
+  }
+}

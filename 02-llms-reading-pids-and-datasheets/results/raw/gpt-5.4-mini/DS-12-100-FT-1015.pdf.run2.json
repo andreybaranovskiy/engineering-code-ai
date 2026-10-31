@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "tag": {
+      "value": "100-FT-1015",
+      "evidence": "Tag number: 100-FT-1015"
+    },
+    "lrv": {
+      "value": null,
+      "evidence": "Calibrated range                                       TBC (Process) Sm³/h"
+    },
+    "urv": {
+      "value": null,
+      "evidence": "Calibrated range                                       TBC (Process) Sm³/h"
+    },
+    "units": {
+      "value": "Sm³/h",
+      "evidence": "Calibrated range                                       TBC (Process) Sm³/h"
+    },
+    "output_signal": {
+      "value": "4-20 mA HART",
+      "evidence": "Output signal                                          4-20 mA HART"
+    },
+    "ex_protection": {
+      "value": "Ex d IIC T4 Gb",
+      "evidence": "Hazardous area                                         Ex d IIC T4 Gb"
+    },
+    "process_connection": {
+      "value": "4\" ASME B16.5 Cl.300 RF",
+      "evidence": "Process connection                                     4\" ASME B16.5 Cl.300 RF"
+    },
+    "wetted_material": {
+      "value": "SS316L",
+      "evidence": "Wetted parts                                           SS316L"
+    },
+    "uncertain": [
+      "lrv",
+      "urv"
+    ]
+  },
+  "usage": {
+    "input_tokens": 696,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 591,
+    "output_tokens_details": {
+      "reasoning_tokens": 347
+    },
+    "total_tokens": 1287
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "answer": {
+    "instruments": [
+      {
+        "tag": "200-PT-2001",
+        "setpoints": [
+          {
+            "name": "PAH",
+            "value": 10,
+            "units": "barg"
+          },
+          {
+            "name": "PAHH",
+            "value": 12,
+            "units": "barg"
+          }
+        ]
+      },
+      {
+        "tag": "200-PI-2002",
+        "setpoints": []
+      },
+      {
+        "tag": "200-TT-2003",
+        "setpoints": [
+          {
+            "name": "TAH",
+            "value": 122,
+            "units": "°C"
+          }
+        ]
+      },
+      {
+        "tag": "200-TI-2004",
+        "setpoints": []
+      },
+      {
+        "tag": "200-FT-2005",
+        "setpoints": [
+          {
+            "name": "FAL",
+            "value": 2400,
+            "units": "Sm3/h"
+          }
+        ]
+      },
+      {
+        "tag": "200-LT-2006",
+        "setpoints": []
+      },
+      {
+        "tag": "200-PDT-2007",
+        "setpoints": [
+          {
+            "name": "PDAH",
+            "value": 0.5,
+            "units": "bar"
+          }
+        ]
+      },
+      {
+        "tag": "200-ZT-2009",
+        "setpoints": []
+      },
+      {
+        "tag": "200-LG-2010",
+        "setpoints": []
+      },
+      {
+        "tag": "200-TE-2011",
+        "setpoints": []
+      },
+      {
+        "tag": "200-PIT-2012",
+        "setpoints": []
+      },
+      {
+        "tag": "200-PT-2013",
+        "setpoints": [
+          {
+            "name": "PAH",
+            "value": 16,
+            "units": "barg"
+          },
+          {
+            "name": "PAHH",
+            "value": 18,
+            "units": "barg"
+          }
+        ]
+      },
+      {
+        "tag": "200-PI-2014",
+        "setpoints": []
+      },
+      {
+        "tag": "200-TT-2015",
+        "setpoints": [
+          {
+            "name": "TAH",
+            "value": 134,
+            "units": "°C"
+          }
+        ]
+      },
+      {
+        "tag": "200-TI-2016",
+        "setpoints": []
+      },
+      {
+        "tag": "200-FT-2017",
+        "setpoints": [
+          {
+            "name": "FAL",
+            "value": 3600,
+            "units": "Sm3/h"
+          }
+        ]
+      },
+      {
+        "tag": "200-LT-2018",
+        "setpoints": []
+      },
+      {
+        "tag": "200-PDT-2019",
+        "setpoints": [
+          {
+            "name": "PDAH",
+            "value": 0.5,
+            "units": "bar"
+          }
+        ]
+      },
+      {
+        "tag": "200-VT-2020",
+        "setpoints": []
+      },
+      {
+        "tag": "200-ZT-2021",
+        "setpoints": []
+      },
+      {
+        "tag": "200-LG-2022",
+        "setpoints": []
+      },
+      {
+        "tag": "200-TE-2023",
+        "setpoints": []
+      },
+      {
+        "tag": "200-PIT-2024",
+        "setpoints": []
+      },
+      {
+        "tag": "200-PT-2025",
+        "setpoints": [
+          {
+            "name": "PAH",
+            "value": 22,
+            "units": "barg"
+          },
+          {
+            "name": "PAHH",
+            "value": 24,
+            "units": "barg"
+          }
+        ]
+      },
+      {
+        "tag": "200-PI-2026",
+        "setpoints": []
+      },
+      {
+        "tag": "200-TI-2028",
+        "setpoints": []
+      },
+      {
+        "tag": "200-FT-2029",
+        "setpoints": [
+          {
+            "name": "FAL",
+            "value": 4800,
+            "units": "Sm3/h"
+          }
+        ]
+      },
+      {
+        "tag": "200-LT-2030",
+        "setpoints": []
+      },
+      {
+        "tag": "200-PDT-2031",
+        "setpoints": [
+          {
+            "name": "PDAH",
+            "value": 0.5,
+            "units": "bar"
+          }
+        ]
+      },
+      {
+        "tag": "200-VT-2032",
+        "setpoints": []
+      },
+      {
+        "tag": "200-ZT-2033",
+        "setpoints": []
+      },
+      {
+        "tag": "200-LG-2034",
+        "setpoints": []
+      },
+      {
+        "tag": "200-TE-2035",
+        "setpoints": []
+      },
+      {
+        "tag": "200-PIT-2036",
+        "setpoints": []
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 3245,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 2304
+    },
+    "output_tokens": 1007,
+    "output_tokens_details": {
+      "reasoning_tokens": 318
+    },
+    "total_tokens": 4252
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "tag": {
+      "value": "100-PDT-1007",
+      "evidence": "Pos. 10 Kunden-TAG / customer tag: 100-PDT-1007"
+    },
+    "lrv": {
+      "value": 0,
+      "evidence": "Calibrated range                                                           0 ... 200 kPa"
+    },
+    "urv": {
+      "value": 200,
+      "evidence": "Calibrated range                                                           0 ... 200 kPa"
+    },
+    "units": {
+      "value": "kPa",
+      "evidence": "Calibrated range                                                           0 ... 200 kPa"
+    },
+    "output_signal": {
+      "value": "4-20 mA HART",
+      "evidence": "Output                                                                     4-20 mA HART"
+    },
+    "ex_protection": {
+      "value": "Ex ia IIC T4 Ga",
+      "evidence": "Ex protection                                                              Ex ia IIC T4 Ga"
+    },
+    "process_connection": {
+      "value": "1/4\" NPT F",
+      "evidence": "Process connection                                                         1/4\" NPT F"
+    },
+    "wetted_material": {
+      "value": "SS316L",
+      "evidence": "Wetted material                                                            SS316L"
+    },
+    "uncertain": []
+  },
+  "usage": {
+    "input_tokens": 662,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 335,
+    "output_tokens_details": {
+      "reasoning_tokens": 106
+    },
+    "total_tokens": 997
+  }
+}

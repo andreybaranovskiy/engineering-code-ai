@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "tag": {
+      "value": "100-AT-1010",
+      "evidence": "TAG No. 100-AT-1010"
+    },
+    "lrv": {
+      "value": 0,
+      "evidence": "CALIBRATED RANGE 0 to 50 ppm H2S"
+    },
+    "urv": {
+      "value": 50,
+      "evidence": "CALIBRATED RANGE 0 to 50 ppm H2S"
+    },
+    "units": {
+      "value": "ppm H2S",
+      "evidence": "CALIBRATED RANGE 0 to 50 ppm H2S"
+    },
+    "output_signal": {
+      "value": "4-20 mA",
+      "evidence": "OUTPUT SIGNAL 4-20 mA"
+    },
+    "ex_protection": {
+      "value": "Ex d IIC T4 Gb",
+      "evidence": "HAZARDOUS AREA Ex d IIC T4 Gb"
+    },
+    "process_connection": {
+      "value": "3/4\" NPT M",
+      "evidence": "PROCESS CONNECTION 3/4\" NPT M"
+    },
+    "wetted_material": {
+      "value": "SS316",
+      "evidence": "WETTED PARTS SS316"
+    },
+    "uncertain": []
+  },
+  "usage": {
+    "input_tokens": 1395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 402,
+    "output_tokens_details": {
+      "reasoning_tokens": 176
+    },
+    "total_tokens": 1797
+  }
+}

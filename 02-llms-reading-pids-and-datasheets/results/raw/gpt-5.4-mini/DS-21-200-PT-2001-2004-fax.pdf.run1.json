@@ -1,0 +1,165 @@
+{
+  "answer": {
+    "instruments": [
+      {
+        "tag": {
+          "value": "200-PT-2001",
+          "evidence": "Tag number 200-PT-2001"
+        },
+        "lrv": {
+          "value": 0,
+          "evidence": "Calibrated range (barg) 0 - 16"
+        },
+        "urv": {
+          "value": 16,
+          "evidence": "Calibrated range (barg) 0 - 16"
+        },
+        "units": {
+          "value": "barg",
+          "evidence": "Calibrated range (barg) 0 - 16"
+        },
+        "output_signal": {
+          "value": "4-20 mA HART",
+          "evidence": "4-20 mA HART"
+        },
+        "ex_protection": {
+          "value": "Ex ia IIC T4 Ga",
+          "evidence": "Ex ia IIC T4 Ga"
+        },
+        "process_connection": {
+          "value": "1/2\" NPT F",
+          "evidence": "1/2\" NPT F"
+        },
+        "wetted_material": {
+          "value": "SS316L",
+          "evidence": "SS316L"
+        },
+        "uncertain": []
+      },
+      {
+        "tag": {
+          "value": "200-PT-2002",
+          "evidence": "Tag number 200-PT-2002"
+        },
+        "lrv": {
+          "value": 0,
+          "evidence": "Calibrated range (barg) 0 - 40"
+        },
+        "urv": {
+          "value": 40,
+          "evidence": "Calibrated range (barg) 0 - 40"
+        },
+        "units": {
+          "value": "barg",
+          "evidence": "Calibrated range (barg) 0 - 40"
+        },
+        "output_signal": {
+          "value": "4-20 mA HART",
+          "evidence": "Output signal as col. 1"
+        },
+        "ex_protection": {
+          "value": null,
+          "evidence": "No value stated in the document for this tag"
+        },
+        "process_connection": {
+          "value": null,
+          "evidence": "No value stated in the document for this tag"
+        },
+        "wetted_material": {
+          "value": null,
+          "evidence": "No value stated in the document for this tag"
+        },
+        "uncertain": [
+          "ex_protection",
+          "process_connection",
+          "wetted_material"
+        ]
+      },
+      {
+        "tag": {
+          "value": "200-PT-2003",
+          "evidence": "Tag number 200-PT-2003"
+        },
+        "lrv": {
+          "value": 0,
+          "evidence": "Rev 1: col. 3 calibrated range changed from 0 - 60 barg (Rev 0) after compressor re-rate."
+        },
+        "urv": {
+          "value": 100,
+          "evidence": "Rev 1: col. 3 calibrated range changed from 0 - 60 barg (Rev 0) after compressor re-rate."
+        },
+        "units": {
+          "value": "barg",
+          "evidence": "Rev 1: col. 3 calibrated range changed from 0 - 60 barg (Rev 0) after compressor re-rate."
+        },
+        "output_signal": {
+          "value": null,
+          "evidence": "No value stated in the document for this tag"
+        },
+        "ex_protection": {
+          "value": null,
+          "evidence": "No value stated in the document for this tag"
+        },
+        "process_connection": {
+          "value": "3/4\" NPT F",
+          "evidence": "3/4\" NPT F"
+        },
+        "wetted_material": {
+          "value": "Inconel 625",
+          "evidence": "Inconel 625"
+        },
+        "uncertain": [
+          "output_signal",
+          "ex_protection"
+        ]
+      },
+      {
+        "tag": {
+          "value": "200-PT-2004",
+          "evidence": "Tag number 200-PT-2004"
+        },
+        "lrv": {
+          "value": 0,
+          "evidence": "Calibrated range (barg) as col. 2"
+        },
+        "urv": {
+          "value": 40,
+          "evidence": "Calibrated range (barg) as col. 2"
+        },
+        "units": {
+          "value": "barg",
+          "evidence": "Calibrated range (barg) as col. 2"
+        },
+        "output_signal": {
+          "value": "Foundation Fieldbus",
+          "evidence": "Foundation Fieldbus"
+        },
+        "ex_protection": {
+          "value": "Ex d IIC T6 Gb",
+          "evidence": "Ex d IIC T6 Gb"
+        },
+        "process_connection": {
+          "value": "1/2\" NPT F",
+          "evidence": "1/2\" NPT F"
+        },
+        "wetted_material": {
+          "value": "SS316L",
+          "evidence": "SS316L"
+        },
+        "uncertain": []
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 1464,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 1152
+    },
+    "output_tokens": 2103,
+    "output_tokens_details": {
+      "reasoning_tokens": 1250
+    },
+    "total_tokens": 3567
+  }
+}

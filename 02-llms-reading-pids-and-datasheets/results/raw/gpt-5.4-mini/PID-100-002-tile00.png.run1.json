@@ -1,0 +1,59 @@
+{
+  "answer": {
+    "instruments": [
+      {
+        "tag": "LIC 1019",
+        "setpoints": []
+      },
+      {
+        "tag": "LT 1019",
+        "setpoints": [
+          {
+            "name": "LAH",
+            "value": 800,
+            "units": "mm"
+          },
+          {
+            "name": "LAL",
+            "value": 200,
+            "units": "mm"
+          }
+        ]
+      },
+      {
+        "tag": "PT 1011",
+        "setpoints": [
+          {
+            "name": "PAH",
+            "value": 20,
+            "units": "barg"
+          }
+        ]
+      },
+      {
+        "tag": "LV 1019",
+        "setpoints": []
+      },
+      {
+        "tag": "TI 1021",
+        "setpoints": []
+      },
+      {
+        "tag": "LG 1020",
+        "setpoints": []
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 3125,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 225,
+    "output_tokens_details": {
+      "reasoning_tokens": 98
+    },
+    "total_tokens": 3350
+  }
+}

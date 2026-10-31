@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "tag": {
+      "value": "100-PT-1002",
+      "evidence": "Pos. 10 Kunden-TAG / customer tag: 100-PT-1002"
+    },
+    "lrv": {
+      "value": 0,
+      "evidence": "Calibrated range                                                           0 ... 10 barg"
+    },
+    "urv": {
+      "value": 10,
+      "evidence": "Calibrated range                                                           0 ... 10 barg"
+    },
+    "units": {
+      "value": "barg",
+      "evidence": "Calibrated range                                                           0 ... 10 barg"
+    },
+    "output_signal": {
+      "value": "4-20 mA HART, SIL 2",
+      "evidence": "Output                                                                     4-20 mA HART, SIL 2"
+    },
+    "ex_protection": {
+      "value": "Ex ia IIC T4 Ga",
+      "evidence": "Ex protection                                                              Ex ia IIC T4 Ga"
+    },
+    "process_connection": {
+      "value": "1/2\" NPT F",
+      "evidence": "Process connection                                                         1/2\" NPT F"
+    },
+    "wetted_material": {
+      "value": "Hastelloy C276",
+      "evidence": "Wetted material                                                            Hastelloy C276"
+    },
+    "uncertain": []
+  },
+  "usage": {
+    "input_tokens": 675,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 310,
+    "output_tokens_details": {
+      "reasoning_tokens": 71
+    },
+    "total_tokens": 985
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "answer": {
+    "instruments": [
+      {
+        "tag": "PT 1011",
+        "setpoints": [
+          {
+            "name": "PAH",
+            "value": 20,
+            "units": "barg"
+          }
+        ]
+      },
+      {
+        "tag": "PI 1014",
+        "setpoints": []
+      },
+      {
+        "tag": "PT 1012",
+        "setpoints": [
+          {
+            "name": "PAH",
+            "value": 12,
+            "units": "barg"
+          }
+        ]
+      },
+      {
+        "tag": "PCV 1012",
+        "setpoints": []
+      },
+      {
+        "tag": "PSV 1023",
+        "setpoints": [
+          {
+            "name": "SET",
+            "value": 16,
+            "units": "barg"
+          }
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 3125,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 2432
+    },
+    "output_tokens": 190,
+    "output_tokens_details": {
+      "reasoning_tokens": 70
+    },
+    "total_tokens": 3315
+  }
+}

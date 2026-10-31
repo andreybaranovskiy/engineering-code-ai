@@ -1,0 +1,165 @@
+{
+  "answer": {
+    "instruments": [
+      {
+        "tag": {
+          "value": "200-PT-2001",
+          "evidence": "Tag number 200-PT-2001"
+        },
+        "lrv": {
+          "value": 0,
+          "evidence": "Calibrated range (barg) 0 - 16"
+        },
+        "urv": {
+          "value": 16,
+          "evidence": "Calibrated range (barg) 0 - 16"
+        },
+        "units": {
+          "value": "barg",
+          "evidence": "Calibrated range (barg)"
+        },
+        "output_signal": {
+          "value": "4-20 mA HART",
+          "evidence": "Output signal 4-20 mA HART"
+        },
+        "ex_protection": {
+          "value": "Ex ia IIC T4 Ga",
+          "evidence": "Hazardous area Ex ia IIC T4 Ga"
+        },
+        "process_connection": {
+          "value": "1/2\" NPT F",
+          "evidence": "Process connection 1/2\" NPT F"
+        },
+        "wetted_material": {
+          "value": "SS316L",
+          "evidence": "Wetted parts SS316L"
+        },
+        "uncertain": []
+      },
+      {
+        "tag": {
+          "value": "200-PT-2002",
+          "evidence": "Tag number 200-PT-2002"
+        },
+        "lrv": {
+          "value": 0,
+          "evidence": "Calibrated range (barg) 0 - 40"
+        },
+        "urv": {
+          "value": 40,
+          "evidence": "Calibrated range (barg) 0 - 40"
+        },
+        "units": {
+          "value": "barg",
+          "evidence": "Calibrated range (barg)"
+        },
+        "output_signal": {
+          "value": "4-20 mA HART",
+          "evidence": "Output signal as col. 1"
+        },
+        "ex_protection": {
+          "value": "Ex ia IIC T4 Ga",
+          "evidence": "Ditto (\") and \"as col. n\" mean the value in the column to the left if in column n applies."
+        },
+        "process_connection": {
+          "value": "1/2\" NPT F",
+          "evidence": "Ditto (\") and \"as col. n\" mean the value in the column to the left if in column n applies."
+        },
+        "wetted_material": {
+          "value": "SS316L",
+          "evidence": "Ditto (\") and \"as col. n\" mean the value in the column to the left if in column n applies."
+        },
+        "uncertain": [
+          "ex_protection",
+          "process_connection",
+          "wetted_material"
+        ]
+      },
+      {
+        "tag": {
+          "value": "200-PT-2003",
+          "evidence": "Tag number 200-PT-2003"
+        },
+        "lrv": {
+          "value": 0,
+          "evidence": "Calibrated range (barg) 0 - 100 1"
+        },
+        "urv": {
+          "value": 100,
+          "evidence": "Calibrated range (barg) 0 - 100 1"
+        },
+        "units": {
+          "value": "barg",
+          "evidence": "Calibrated range (barg)"
+        },
+        "output_signal": {
+          "value": "4-20 mA HART",
+          "evidence": "Ditto (\") and \"as col. n\" mean the value in the column to the left if in column n applies."
+        },
+        "ex_protection": {
+          "value": "Ex ia IIC T4 Ga",
+          "evidence": "Ditto (\") and \"as col. n\" mean the value in the column to the left if in column n applies."
+        },
+        "process_connection": {
+          "value": "3/4\" NPT F",
+          "evidence": "Process connection 3/4\" NPT F"
+        },
+        "wetted_material": {
+          "value": "Inconel 625",
+          "evidence": "Wetted parts Inconel 625"
+        },
+        "uncertain": [
+          "output_signal",
+          "ex_protection"
+        ]
+      },
+      {
+        "tag": {
+          "value": "200-PT-2004",
+          "evidence": "Tag number 200-PT-2004"
+        },
+        "lrv": {
+          "value": 0,
+          "evidence": "Calibrated range (barg) as col. 2"
+        },
+        "urv": {
+          "value": 40,
+          "evidence": "Calibrated range (barg) as col. 2"
+        },
+        "units": {
+          "value": "barg",
+          "evidence": "Calibrated range (barg)"
+        },
+        "output_signal": {
+          "value": "Foundation Fieldbus",
+          "evidence": "Output signal Foundation Fieldbus"
+        },
+        "ex_protection": {
+          "value": "Ex d IIC T6 Gb",
+          "evidence": "Hazardous area Ex d IIC T6 Gb"
+        },
+        "process_connection": {
+          "value": "1/2\" NPT F",
+          "evidence": "Process connection 1/2\" NPT F"
+        },
+        "wetted_material": {
+          "value": "SS316L",
+          "evidence": "Wetted parts SS316L"
+        },
+        "uncertain": []
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 1464,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1450,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 2914
+  }
+}
