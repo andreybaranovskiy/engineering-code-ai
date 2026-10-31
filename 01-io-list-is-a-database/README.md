@@ -1,6 +1,6 @@
 # 01 — Your IO list is a database
 
-Companion code for the article [*"Your IO list is a database: engineering data as code"*](https://andreybaranovskiy.com/articles/io-list-is-a-database) by Andrey Baranovskiy.
+Companion code for the article [*"Your IO list is a database: engineering data as code"*](https://www.linkedin.com/in/andrey-baranovskiy/recent-activity/articles/) by Andrey Baranovskiy.
 
 Plain Python 3.10+, standard library only. All data is fictional (an inlet separator, "Unit 100").
 

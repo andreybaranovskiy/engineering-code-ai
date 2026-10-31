@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iolint"
+version = "0.1.0"
+description = "Consistency checks for instrument index, IO list and cable schedule: engineering data as code."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Andrey Baranovskiy"}]
+keywords = ["instrumentation", "control systems", "io list", "engineering", "validation", "DCS", "SIS"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Manufacturing",
+  "Topic :: Scientific/Engineering",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/andreybaranovskiy/engineering-code-ai/tree/main/iolint"
+Article = "https://www.linkedin.com/in/andrey-baranovskiy/recent-activity/articles/"
+
+[project.scripts]
+iolint = "iolint.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+iolint = ["example/*.csv"]

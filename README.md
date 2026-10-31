@@ -1,13 +1,18 @@
 # Engineering × Code × AI
 
-Companion code for a monthly series of long-form articles by **Andrey Baranovskiy, CEng**: practical software and AI for instrumentation, control and ICT/ELV engineering.
+Companion code for a series of long-form articles, published every 4 weeks, by **Andrey Baranovskiy, CEng**: practical software and AI for instrumentation, control and ICT/ELV engineering.
 
-Articles: [andreybaranovskiy.com/articles](https://andreybaranovskiy.com/articles) · LinkedIn: [andrey-baranovskiy](https://www.linkedin.com/in/andrey-baranovskiy/)
+Articles: published on [LinkedIn](https://www.linkedin.com/in/andrey-baranovskiy/recent-activity/articles/) every 4 weeks, and on andreybaranovskiy.com once the site launches.
 
 | # | Article | Folder | Published |
 |---|---|---|---|
-| 01 | Your IO list is a database: engineering data as code | [`01-io-list-is-a-database`](01-io-list-is-a-database) | 24 Nov 2026 |
-| 02 | LLMs reading P&IDs and datasheets: a measured test | coming | Dec 2026 |
+| 01 | Your IO list is a database: engineering data as code | [`01-io-list-is-a-database`](01-io-list-is-a-database) | 10 Oct 2026 |
+| 02 | LLMs reading P&IDs and datasheets: a measured test | coming | 7 Nov 2026 |
+
+## Tools
+
+- **[iolint](iolint)**: the checks from article 01 as an installable command-line tool.
+  `pip install "git+https://github.com/andreybaranovskiy/engineering-code-ai#subdirectory=iolint"`, then `iolint example demo && iolint check demo`.
 
 ## Running the code
 

@@ -3,3 +3,6 @@ __pycache__/
 out/
 .venv/
 .DS_Store
+build/
+dist/
+*.egg-info/
